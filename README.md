@@ -1,1 +1,1 @@
-# dragDrop
+For running this you can directly just download the code and run it in any browser to check it. I've added some responsivenes also but the side by side containers are turned to vertical containers with same horizontal lists
