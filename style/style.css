@@ -48,7 +48,7 @@
     margin-right: 8px;
 }
 
-button{
+button {
     background-color: wheat;
     cursor: pointer;
     border-radius: 16px;
@@ -59,4 +59,26 @@ button{
     display: flex;
     height: 20px;
     width: 108px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    #source, #destination {
+        width: 80%;
+        min-height: 200px;
+        margin: 20px auto;
+    }
+
+    .list {
+        width: 90%;
+    }
+
+    button {
+        position: static;
+        margin-top: 20px;
+    }
 }
